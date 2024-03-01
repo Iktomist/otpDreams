@@ -14,7 +14,7 @@ So, in other words, I would encourage everyone to use this to encrypt their own 
 Usage:
 
 Decoding:
-cat PADFILE | ./otp.py ENCODEDFILE > DECODEDFILE
+`cat PADFILE | ./otp.py ENCODEDFILE > DECODEDFILE`
 
 Encoding:
-cat PADFILE | ./otp.py PLAINTEXT > ENCODEDFILE
+`cat PADFILE | ./otp.py PLAINTEXT > ENCODEDFILE`
